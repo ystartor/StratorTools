@@ -26,7 +26,7 @@ public class SM3CallJs {
             engine.eval(new FileReader(path+ "sm3.js"));
             if (engine instanceof Invocable){
                 Invocable invocable = (Invocable) engine;
-                String passwordResult = (String) invocable.invokeFunction("hex_sm3", "234234");
+                String passwordResult = (String) invocable.invokeFunction("hex_sm3", "123123");
                 System.out.println(passwordResult);
             }
         } catch (ScriptException e) {

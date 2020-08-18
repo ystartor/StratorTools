@@ -3,15 +3,16 @@ package com.ystartor.security;
 import java.io.BufferedWriter;
 import java.io.InputStream;
 import java.io.OutputStreamWriter;
+import java.lang.ref.WeakReference;
 import java.net.HttpURLConnection;
 import java.net.URL;
 
 public class HttpRequest {
 
     public static void main(String[] args) throws Exception {
-        executeRquest("http://10.8.206.233:30090/login", "username=jiangxinxin&password=e10adc3949ba59abbe56e057f20f883e", false, "BD2FE2CC51249E5439453EE601905AAC");
+        executeRquest("http://10.8.206.233:30090/login", "username=jiangxinxin&password=e10adc3949ba59abbe56e057f20f883e", false, "");
 
-        executeRquest("http://10.8.206.233:30090/businessUser/getAllData", "", true, "");
+//        executeRquest("http://10.8.206.233:30090/businessUser/getAllData", "", true, "1A927A5388D52D391849AE3F70CF6329");
 
     }
 
