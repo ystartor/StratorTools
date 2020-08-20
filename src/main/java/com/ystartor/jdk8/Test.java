@@ -1,12 +1,13 @@
 package com.ystartor.jdk8;
 
-import com.sun.deploy.util.StringUtils;
 import com.ystartor.jdk8.entity.Trader;
 import com.ystartor.jdk8.entity.Transaction;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.Comparator;
+import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
-import java.util.stream.Stream;
 
 public class Test {
 
