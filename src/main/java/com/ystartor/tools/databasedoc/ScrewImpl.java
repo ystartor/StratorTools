@@ -39,7 +39,7 @@ public class ScrewImpl {
                 //打开目录
                 .openOutputDir(true)
                 //生成文件类型：HTML
-                .fileType(EngineFileType.WORD)
+                .fileType(EngineFileType.HTML)
                 //生成模板实现
                 .produceType(EngineTemplateType.freemarker)
                 .build();
